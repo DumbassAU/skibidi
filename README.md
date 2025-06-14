@@ -48,3 +48,6 @@ Planned:
 - See redeemable codes
 
 Feel free to request new features by opening an issue.
+
+# ⚠️ Disclaimer
+This project is fan-made and not affiliated with Star Birds, Toukana Interactive, or kurzgesagt - in a nutshell. 
