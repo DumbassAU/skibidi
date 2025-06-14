@@ -16,32 +16,37 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 6.x
-    - name: Restore dependencies
-      run: dotnet restore
+
     - name: Build
-      run: dotnet build -c Release --no-restore
+      run: dotnet build -c Release
+
     - name: Test
       run: dotnet test --no-build --verbosity normal
+
     - name: Upload stella.dll artifact
       uses: actions/upload-artifact@v4
       with:
         name: stella.dll
         path: bin/Release/net6.0/stella.dll
+
     - name: Download and extract BepInEx
       run: |
         wget -O BepInEx.zip https://github.com/BepInEx/BepInEx/releases/download/v6.0.0-pre.1/BepInEx_UnityMono_x64_6.0.0-pre.1.zip
         unzip BepInEx.zip -d BepInEx
+
     - name: Copy stella.dll to BepInEx/plugins
       run: |
         chmod -R 755 BepInEx
         mkdir BepInEx/BepInEx/plugins
         cp bin/Release/net6.0/stella.dll BepInEx/BepInEx/plugins/
+
     - name: Upload stella.zip artifact
       uses: actions/upload-artifact@v4
       with:
         name: stella
-        path: BepInEx.zip
+        path: BepInEx

@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/badge/license-GPL-brightgreen.svg?style=plastic&logo=GNU&label=License">
   </a>
 
-  <a href="../../actions/workflows/python-app.yml">
+  <a href="../../actions/workflows/dotnet.yml">
     <img src="https://github.com/astra1dev/stella/actions/workflows/dotnet.yml/badge.svg?event=push">
   </a>
 
