@@ -1,21 +1,50 @@
-steam link: https://store.steampowered.com/app/2719750/Star_Birds/
-steam link (demo): https://store.steampowered.com/app/3576710/Star_Birds_Demo/
+<p align="center">
+  <img width=256 height=256 src="https://github.com/user-attachments/assets/3b87425e-efc8-40c0-87ac-b38d7faba2da">
+</p>
+
+<p align="center">
+
+  <a href="https://www.gnu.org/licenses/gpl-3.0.html">
+    <img src="https://img.shields.io/badge/license-GPL-brightgreen.svg?style=plastic&logo=GNU&label=License">
+  </a>
+
+  <a href="../../actions/workflows/python-app.yml">
+    <img src="https://github.com/astra1dev/stella/actions/workflows/dotnet.yml/badge.svg?event=push">
+  </a>
+
+  <a href="../../releases">
+    <img src="https://img.shields.io/github/downloads/astra1dev/stella/total.svg?style=plastic">
+  </a>
+
+  <a href="../../releases/latest">
+    <img src="https://img.shields.io/github/downloads/astra1dev/stella/latest/total?style=plastic">
+  </a>
+
+</p>
+
+<p align="center">
+<b>utility menu for the game "Star Birds"</b>
+</p>
+
+# 🎮 Game Info
 
 > Star Birds is a relaxing asteroid base-building and resource management game. 
 > Discover and mine countless asteroids, create production networks and guide your colony of spacefaring birds to new interstellar horizons!
 
-this project is a small utility menu for the demo version. the full game is going to release sometime in 2025.
+- Steam Link: https://store.steampowered.com/app/2719750/Star_Birds/
+- Steam Link (demo): https://store.steampowered.com/app/3576710/Star_Birds_Demo/
+- Save game files are stored in: `%APPDATA%\..\LocalLow\Toukana Interactive\Star Birds Demo\GameFiles\`
 
-right now the following features are available:
-- skip all cutscenes immediately
-- zoom in and out infinitely
-- set the amount of credits and tech points you have
+This project is (right now) only available for the demo version. The full game is going to release sometime in 2025.
 
-planned features:
-- influence the randomness / seed somehow
-- manage multiple save files / quickly edit progress
-- see redeemable codes
+# 🔥 Features
+- 🎬 Skip all cutscenes immediately
+- 🔎 Zoom in and out infinitely
+- 🪙 Set the amount of credits and tech points you have
 
-feel free to request new features by opening an issue.
+Planned:
+- Influence the randomness / seed somehow
+- Manage multiple save files / quickly edit progress
+- See redeemable codes
 
-save game files are stored in: `%APPDATA%\..\LocalLow\Toukana Interactive\Star Birds Demo\GameFiles\`
+Feel free to request new features by opening an issue.
