@@ -38,6 +38,7 @@ jobs:
     - name: Copy stella.dll to BepInEx/plugins
       run: |
         chmod -R 755 BepInEx
+        mkdir BepInEx/BepInEx/plugins
         cp bin/Release/net6.0/stella.dll BepInEx/BepInEx/plugins/
     - name: Upload stella.zip artifact
       uses: actions/upload-artifact@v4
