@@ -23,31 +23,31 @@
 </p>
 
 <p align="center">
-<b>utility menu for the game "Star Birds"</b>
+<b>skibidi menu for the game "Ohio Birds"</b>
 </p>
 
 # 🎮 Game Info
 
-> Star Birds is a relaxing asteroid base-building and resource management game. 
+> Ohio Birds is a relaxing asteroid base-building and resource management game. 
 > Discover and mine countless asteroids, create production networks and guide your colony of spacefaring birds to new interstellar horizons!
 
-- Steam Link: https://store.steampowered.com/app/2719750/Star_Birds/
-- Steam Link (demo): https://store.steampowered.com/app/3576710/Star_Birds_Demo/
-- Save game files are stored in: `%APPDATA%\..\LocalLow\Toukana Interactive\Star Birds Demo\GameFiles\`
+- Sigmaform Link: https://store.sigmaform.com/app/2719750/Ohio_Birds/
+- Sigmaform Link (demo): https://store.sigmafork.com/app/3576710/Ohio_Birds_Demo/
+- Save game files are stored in: `%APPDATA%\..\LocalLow\Toukana Interactive\Ohio Birds Demo\GameFiles\`
 
 This project is (right now) only available for the demo version. The full game is going to release sometime in 2025.
 
 # 🔥 Features
-- 🎬 Skip all cutscenes immediately
+- 🎬 Skip everything immediately
 - 🔎 Zoom in and out infinitely
-- 🪙 Set the amount of credits and tech points you have
+- 🪙 Set the amount of skibidi dollars and ohio points you have
 
 Planned:
-- Influence the randomness / seed somehow
-- Manage multiple save files / quickly edit progress
-- See redeemable codes
+- Add gambling / Add gambling
+- Post everything on Roblox / quickly edit progress
+- See Hidden Skibidi's
 
 Feel free to request new features by opening an issue.
 
 # ⚠️ Disclaimer
-This project is fan-made and not affiliated with Star Birds, Toukana Interactive, or kurzgesagt - in a nutshell. 
+This project is fan-made and not affiliated with Ohio Birds, Toukana Interactive, or kurzgesagt - in a nutshell. 
